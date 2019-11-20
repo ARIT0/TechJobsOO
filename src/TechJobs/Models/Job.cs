@@ -17,5 +17,16 @@
             nextId++;
         }
 
+        public Job (string name, Employer employer, Location location, CoreCompetency coreCompetency, PositionType positionType)
+        {
+            Name = name;
+            Employer = employer;
+            Location = location;
+            CoreCompetency = coreCompetency;
+            PositionType = positionType;
+            ID = nextId;
+            nextId++;
+        }
+
     }
 }
